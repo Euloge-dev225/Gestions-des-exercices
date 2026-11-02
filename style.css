@@ -1,0 +1,72 @@
+body {
+  font-family: "Times New Roman", serif;
+  margin: 30px;
+}
+
+fieldset {
+  width: 380px;
+  padding: 15px;
+  margin: 0 auto 25px;
+  border: 1px solid #999;
+  
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+}
+
+input[type="text"], input[type="date"] {
+  width: 95%;
+  padding: 4px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 5px 14px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: 0 auto 25px;
+}
+
+.empty-state {
+  box-sizing: border-box;
+  width: 70%;
+  margin: 0 auto 25px;
+  padding: 28px 20px;
+  border: 1px solid #dfe3e8;
+  border-radius: 6px;
+  background: #f8fafc;
+  color: #334155;
+  text-align: center;
+}
+
+.empty-state h2 {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+}
+
+.empty-state p {
+  margin: 0;
+  color: #64748b;
+}
+
+th {
+  background: #f39c12;   
+  color: #fff;
+  padding: 6px;
+}
+
+td {
+  background: #3498db;   
+  color: #fff;
+  text-align: center;
+  padding: 6px;
+  border: 1px solid #fff;
+}
+
+td a { color: #fff; }
